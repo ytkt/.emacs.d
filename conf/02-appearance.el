@@ -13,3 +13,7 @@
 ;; truncate lines
 (setq-default truncate-partial-width-windows t)
 (setq-default truncate-lines t)
+
+;; Theme
+(require 'color-theme-sanityinc-tomorrow)
+(color-theme-sanityinc-tomorrow--define-theme bright)
