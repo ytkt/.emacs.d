@@ -24,6 +24,7 @@
 (el-get-bundle yasnippet-snippets)
 (el-get-bundle auto-complete)
 (el-get-bundle ag)
+(el-get-bundle wgrep)
 
 
 ;;; init-loader.el
