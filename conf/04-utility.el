@@ -17,3 +17,4 @@
 (ido-mode 1)
 (ido-everywhere 1)
 (setq ido-enable-flex-matching t)
+(setq ido-save-directory-list-file "~/emacs.d/tmp/ido.last")
