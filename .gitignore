@@ -97,3 +97,5 @@ Temporary Items
 /backup/*
 !/backup/.keep
 /el-get/*
+/tmp/*
+!/tmp/.keep
