@@ -96,4 +96,4 @@ Temporary Items
 ### self
 /backup/*
 !/backup/.keep
-
+/el-get/*
