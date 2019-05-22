@@ -1,3 +1,10 @@
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
 (add-to-list 'load-path (locate-user-emacs-file "el-get/el-get"))
 (unless (require 'el-get nil 'noerror)
   (with-current-buffer
@@ -14,6 +21,7 @@
 
 ;; Utilities
 (el-get-bundle yasnippet)
+(el-get-bundle yasnippet-snippets)
 (el-get-bundle auto-complete)
 (el-get-bundle ag)
 
