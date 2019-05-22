@@ -27,9 +27,17 @@
 (el-get-bundle wgrep)
 
 
+;; Fix current buffer automatically
+;; See also https://github.com/tomoya/auto-fix.el
+(el-get-bundle auto-fix
+  :type github
+  :pkgname "tomoya/auto-fix.el"
+  :features auto-fix
+  )
+
+
 ;;; init-loader.el
 (require 'init-loader)
 (init-loader-load "~/.emacs.d/conf")
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
-
