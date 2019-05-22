@@ -12,3 +12,8 @@
 (require 'ag)
 (setq ag-highlight-search t)
 (setq ag-reuse-buffers t)
+
+;; ido-mode
+(ido-mode 1)
+(ido-everywhere 1)
+(setq ido-enable-flex-matching t)
