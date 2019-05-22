@@ -15,3 +15,5 @@
   (text-scale-decrease 1)))
 (global-set-key [(control ?0)] (lambda () (interactive)
   (text-scale-increase 0)))
+
+(global-set-key (kbd "C-@") 'er/expand-region)

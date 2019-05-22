@@ -25,6 +25,8 @@
 (el-get-bundle auto-complete)
 (el-get-bundle ag)
 (el-get-bundle wgrep)
+(el-get-bundle expand-region)
+
 
 
 ;; Fix current buffer automatically
