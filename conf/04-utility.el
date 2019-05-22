@@ -5,3 +5,10 @@
 
 ;; Change history file location
 (setq ac-comphist-file "~/.emacs.d/tmp/ac-comphist.dat")
+
+
+; ag
+(setq default-process-coding-system 'utf-8-unix)
+(require 'ag)
+(setq ag-highlight-search t)
+(setq ag-reuse-buffers t)

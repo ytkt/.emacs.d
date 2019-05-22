@@ -15,6 +15,7 @@
 ;; Utilities
 (el-get-bundle yasnippet)
 (el-get-bundle auto-complete)
+(el-get-bundle ag)
 
 
 ;;; init-loader.el
