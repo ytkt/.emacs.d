@@ -22,7 +22,7 @@
 ;; Utilities
 (el-get-bundle yasnippet)
 (el-get-bundle yasnippet-snippets)
-(el-get-bundle auto-complete)
+(el-get-bundle company-mode)
 (el-get-bundle ag)
 (el-get-bundle wgrep)
 (el-get-bundle expand-region)
