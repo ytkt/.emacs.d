@@ -15,6 +15,7 @@
 
 
 (el-get-bundle init-loader)
+(el-get-bundle use-package)
 
 ;; Appearance
 (el-get-bundle color-theme-sanityinc-tomorrow)
