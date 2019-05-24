@@ -1,3 +1,7 @@
+;; yasnippet
+(yas-global-mode 1)
+
+
 ;; company
 (global-company-mode +1)
 (setq company-idle-delay 0)
