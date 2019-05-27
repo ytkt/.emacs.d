@@ -25,7 +25,7 @@
 (el-get-bundle company-mode)
 (el-get-bundle ag)
 (el-get-bundle wgrep)
-(el-get-bundle expand-region)
+;; (el-get-bundle expand-region)
 
 
 ;; Language modes

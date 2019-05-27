@@ -30,4 +30,4 @@
 
 ;; expand-region
 ;; See also https://github.com/magnars/expand-region.el
-(require 'expand-region)
+;; (require 'expand-region)
