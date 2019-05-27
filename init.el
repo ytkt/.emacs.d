@@ -28,6 +28,9 @@
 (el-get-bundle expand-region)
 
 
+;; Language modes
+(el-get-bundle js2-mode)
+
 ;; Fix current buffer automatically
 ;; See also https://github.com/tomoya/auto-fix.el
 (el-get-bundle auto-fix
