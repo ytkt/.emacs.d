@@ -30,6 +30,8 @@
 
 ;; Language modes
 (el-get-bundle js2-mode)
+(el-get-bundle go-mode)
+
 
 ;; Fix current buffer automatically
 ;; See also https://github.com/tomoya/auto-fix.el
