@@ -31,6 +31,7 @@
 ;; Language modes
 (el-get-bundle js2-mode)
 (el-get-bundle go-mode)
+(el-get-bundle scala-mode)
 
 
 ;; Fix current buffer automatically
