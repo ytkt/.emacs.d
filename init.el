@@ -33,6 +33,7 @@
 (el-get-bundle go-mode)
 (el-get-bundle scala-mode)
 
+(el-get-bundle yaml-mode)
 
 ;; Fix current buffer automatically
 ;; See also https://github.com/tomoya/auto-fix.el
