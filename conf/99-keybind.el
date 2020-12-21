@@ -16,7 +16,7 @@
 (global-set-key [(control ?0)] (lambda () (interactive)
   (text-scale-increase 0)))
 
-(global-set-key (kbd "C-@") 'er/expand-region)
+;;(global-set-key (kbd "C-@") 'er/expand-region)
 
 ;; company
 (global-set-key (kbd "C-M-i") 'company-complete)
