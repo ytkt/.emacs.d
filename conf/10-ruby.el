@@ -8,3 +8,5 @@
 ;;   (auto-fix-mode +1))
 
 ;; (add-hook 'ruby-mode-hook #'setup-ruby-auto-fix)
+
+(setq ruby-insert-encoding-magic-comment nil)
