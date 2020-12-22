@@ -37,6 +37,9 @@
 (el-get-bundle gradle-mode)
 (el-get-bundle dockerfile-mode)
 
+;; Rails
+(el-get-bundle slim-mode)
+
 ;; Fix current buffer automatically
 ;; See also https://github.com/tomoya/auto-fix.el
 (el-get-bundle auto-fix
