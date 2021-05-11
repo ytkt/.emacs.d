@@ -11,3 +11,4 @@
                          (cons "." "~/.emacs.d/backup/"))
 (setq auto-save-file-name-transforms
       `((".*" ,(expand-file-name "~/.emacs.d/backup/") t)))
+(setq create-lockfiles nil)
