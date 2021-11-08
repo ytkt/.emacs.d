@@ -25,6 +25,7 @@
 (el-get-bundle company-mode)
 (el-get-bundle ag)
 (el-get-bundle wgrep)
+(el-get-bundle flycheck)
 ;; (el-get-bundle expand-region)
 
 
@@ -32,6 +33,8 @@
 (el-get-bundle js2-mode)
 (el-get-bundle go-mode)
 (el-get-bundle scala-mode)
+(el-get-bundle typescript-mode)
+(el-get-bundle tide)
 
 (el-get-bundle yaml-mode)
 (el-get-bundle gradle-mode)
@@ -39,6 +42,13 @@
 
 ;; Rails
 (el-get-bundle slim-mode)
+(el-get-bundle coffee-mode)
+(el-get-bundle rspec-mode)
+(el-get-bundle scss-mode)
+
+;;(el-get-bundle solargraph)
+;;(el-get-bundle ac-solargraph)
+
 
 ;; Fix current buffer automatically
 ;; See also https://github.com/tomoya/auto-fix.el
