@@ -4,4 +4,5 @@
 	    (setq my-js-mode-indent-num 2)
 	    (setq js2-basic-offset my-js-mode-indent-num)
 	    (setq js-switch-indent-offset my-js-mode-indent-num)
+	    (setq indent-tab-mode nil)
             ))
