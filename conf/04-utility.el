@@ -31,3 +31,15 @@
 ;; expand-region
 ;; See also https://github.com/magnars/expand-region.el
 ;; (require 'expand-region)
+
+
+;;; Open current file by Visual Studio Code
+(defun open-by-vscode ()
+  (interactive)
+  (shell-command
+   (format "code -r -g %s:%d:%d"
+           (buffer-file-name)
+           (line-number-at-pos)
+           (current-column))))
+
+(define-key global-map (kbd "C-c C-v") 'open-by-vscode)
