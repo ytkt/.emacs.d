@@ -16,9 +16,8 @@
 
 ;; Theme
 (require 'color-theme-sanityinc-tomorrow)
-(color-theme-sanityinc-tomorrow--define-theme bright)
+(color-theme-sanityinc-tomorrow-bright)
 
 ;; Highlight brackets
 (setq show-paren-dilay 0)
 (show-paren-mode t)
-
