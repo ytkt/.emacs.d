@@ -28,3 +28,15 @@
 (define-key company-active-map (kbd "C-i") 'company-complete-common)
 (define-key company-active-map (kbd "C-h") nil)
 (define-key emacs-lisp-mode-map (kbd "C-M-i") nil)
+
+
+;;; 現在のファイルをvscodeで開く
+(defun open-by-vscode ()
+  (interactive)
+  (shell-command
+   (format "code -r -g %s:%d:%d"
+           (buffer-file-name)
+           (line-number-at-pos)
+           (current-column))))
+
+(define-key global-map (kbd "C-c C-v") 'open-by-vscode)
