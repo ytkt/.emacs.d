@@ -1,4 +1,3 @@
-
 ;; Added by Package.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
@@ -46,8 +45,8 @@
 (el-get-bundle rspec-mode)
 (el-get-bundle scss-mode)
 
-;;(el-get-bundle solargraph)
-;;(el-get-bundle ac-solargraph)
+(el-get-bundle solargraph)
+(el-get-bundle ac-solargraph)
 
 
 ;; Fix current buffer automatically
@@ -64,3 +63,18 @@
 (init-loader-load "~/.emacs.d/conf")
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes '(sanityinc-tomorrow-bright))
+ '(custom-safe-themes
+   '("1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" default))
+ '(warning-suppress-types '((el-get))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
