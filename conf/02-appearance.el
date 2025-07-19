@@ -7,7 +7,7 @@
 (size-indication-mode t)
 
 ;; line number
-(global-linum-mode t)
+(global-display-line-numbers-mode 1)
 (setq linum-format "%4d ")
 
 ;; truncate lines
