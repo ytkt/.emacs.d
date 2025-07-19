@@ -17,7 +17,8 @@
 (el-get-bundle use-package)
 
 ;; Appearance
-(el-get-bundle color-theme-sanityinc-tomorrow)
+(setq custom--inhibit-theme-enable nil) ;; https://naokton.hatenablog.com/entry/2020/07/20/065700
+(el-get-bundle color-theme-sanityinc-tomorro)
 
 ;; Utilities
 (el-get-bundle yasnippet)
